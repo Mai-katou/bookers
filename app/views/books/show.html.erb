@@ -1,0 +1,18 @@
+<div class='flash'><%= flash[:created] %></div>
+<div class='flash'><%= flash[:updated] %></div>
+
+<div class='show-contents'>
+  <div class='show-list'>
+    <strong>Title:</strong>
+    <span><%= @book.title %></span>
+  </div>
+
+  <div class='show-list'>
+    <strong>Body:</strong>
+    <span><%= @book.body %></span>
+  </div>
+
+  <%= link_to 'Edit', edit_book_path(@book.id) %>
+  <span>|</span>
+  <%= link_to 'Back',"/books" %>
+</div>

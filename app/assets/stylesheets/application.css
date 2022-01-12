@@ -1,0 +1,134 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+body{
+  margin:33px;
+}
+
+h1{
+  margin:33px 0;
+}
+
+strong{
+  font-weight: bold;
+}
+
+a{
+  color:#696969;
+}
+
+p {
+  color:#333;
+  font-size:13px;
+  margin:33px;
+}
+
+
+table{
+  display:table;
+  border-collapse:separate;
+  box-sizing:border-box;
+  width:100%;
+}
+
+
+th,td{
+  display:table-cell;
+  overflow:hidden;
+  white-space: nowrap;
+}
+
+th{
+  padding-bottom: 5px;
+  font-weight:bold;
+}
+
+td{
+  padding: 7px;
+}
+
+h2{
+  padding:20px 0;
+}
+
+.field-contents{
+  padding-bottom:10px;
+}
+
+.edit-contents{
+  margin-bottom:10px;
+}
+
+.book-link{
+  color:#333;
+}
+
+
+.show-list{
+  margin:33px;
+}
+
+.flash{
+  color:green;
+  font-size:15px;
+  margin:33px;
+}
+
+.errorbox{
+  width:450px;
+  border:2px solid red;
+  background-color:#d3d3d3;
+  margin-bottom:10px;
+}
+
+.error-count-message{
+  font-weight:bold;
+  background:red;
+  color:#ffffff;
+}
+
+.error-field{
+  width:40px;
+  background-color:red;
+  text-align:center;
+}
+
+.error-field-contents{
+  width:170px;
+  height:25px;
+  background-color:red;
+  padding:1px;
+  margin-bottom:10px;
+}
+
+.error-area-contents{
+  width:160px;
+  height:35px;
+  background-color:red;
+  padding:2px;
+  margin-bottom:10px;
+}
+
+ul{
+  margin:33px;
+  }
+
